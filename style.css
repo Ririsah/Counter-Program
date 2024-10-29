@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("background.jpeg");
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(rgb(105, 98, 129), rgb(138, 49, 132) );
+    height: 500px;  
+    width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#header{
+    font-family: "Sixtyfour";
+    background-color: rgb(64, 33, 70);
+    color: rgb(81, 255, 0);
+    padding: 25px;
+}
+
+p{
+    font-family: "Press Start 2P";  
+    font-size: 6em;
+    color: rgb(81, 255, 0);
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+#box{
+    background-color: rgb(16, 0, 34);
+    height: 230px;  
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+hr{
+    border: 4px dashed;
+    color: rgb(81, 255, 0);
+    margin-top: 20px;
+}
+
+#btnContainer{
+    margin-top: 30px;
+}
+
+.buttons{
+    font-family: "consolas";
+    font-size: medium;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(81, 255, 0);
+    background-color: rgb(37, 12, 41);
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(64, 33, 70);
+}
